@@ -16,3 +16,24 @@
 .list>ul>li{
     margin-right: 50px;
 }
+
+/*{ start of section 1}*/
+.sectionone{
+    border: 2px blue;
+    height: 600px;
+}
+.content1{
+    position: relative;
+    top: 120px;
+}
+.content1>p{
+    font-weight: bold;
+}
+.content2>img{
+    position: relative;
+    height: 350px;
+    width: 550px;
+    right: -410px;
+    top: -150px;
+    
+}
