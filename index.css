@@ -1,39 +1,46 @@
 .header{
-    border: 2px solid red;
-    height: 70px;
+    border: 2px solid white;
+    height: 50px;
+    background-color: rgba(164, 248, 125, 1);
 }
 .logo>img{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
 }
-.list>ul{
+.hover-nav>ul{
     position: relative;
     display: flex;
     list-style: none;
-    top: -70px;
+    top: -60px;
     right: -380px;
 }
-.list>ul>li{
+.hover-nav>ul>li{
     margin-right: 50px;
 }
 
 /*{ start of section 1}*/
-.sectionone{
-    border: 2px blue;
-    height: 600px;
+.section1{
+    border: 2px solid red;
+    height: 450px;
+    border-radius: 0px 0px 100px 0px;
 }
 .content1{
     position: relative;
-    top: 120px;
+    top: 100px;
+    left: 25px;
+    
 }
 .content1>p{
-    font-weight: bold;
+    font-weight: normal;
 }
 .content2>img{
     position: relative;
     height: 350px;
-    width: 550px;
-    right: -410px;
-    top: -150px;
-    
+    width: 520px;
+    right: -430px;
+    top: -120px;   
 }
+
+
+
+
