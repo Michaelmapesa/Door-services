@@ -198,3 +198,20 @@ button:hover{
     left: 700px;
     top: -85px;
 }
+form small{
+    visibility: hidden;
+    
+}
+form i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+form i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+form.error i.fa-exclamation-circle{
+    color: e74;
+}
