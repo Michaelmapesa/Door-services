@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="signup.css">
+
+    
     <title>Signup page</title>
 </head>
 <body>
@@ -13,41 +15,37 @@
         <form>
             <div id="name">
                 <h2 class="name">Name</h2>
-                <input class="firstname" type="text" name="first-name"><br>
+                <input class="firstname" type="text" id="firstname"><br>
                 <label class="firstlable">First name</label>
-                <input class="lastname" type="text" name="lastname"><br>
+
+                <input class="lastname" type="text" id="lastname"><br>
                 <label class="lastlable">Last name</label>
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
+
             
             </div>
 
             <div>
                 <h2 class="name">Location</h2>
-                <input class="location" type="text" name="Location">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
+                <input class="location" type="text" id="location">
+        
             </div>
            
                <div>
                 <h2 class="name">Email</h2>
-                <input class="Email" type="text" name="Email">
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
+                <input class="Email" type="text" id="email">
+
                </div>
            
                <div>
                 <h2 class="name">Phone</h2>
-                <input class="code" type="text" name="area_code">
+                <input class="code" type="text" id="areacode">
                 <label class="area-code">Area code</label>
-                <input class="number" type="text" name="phone">
+               </div>
+
+                <div>
+                <input class="number" type="text" id="phone">
                 <label class="phone-number">Phone Number</label>
-                <i class="fas fa-check-circle"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <small>Error message</small>
+            
                </div>
            
            
@@ -82,5 +80,8 @@
         <a href="index.html"><button>Back</button></a>
     </div>
     
+    <script src="home.js"></script>
 </body>
+
+
 </html>

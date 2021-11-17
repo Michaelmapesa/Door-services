@@ -213,5 +213,10 @@ form i.fa-check-circle{
     visibility: visible;
 }
 form.error i.fa-exclamation-circle{
-    color: e74;
+    color: e74c3c;
+    visibility: visible;
+}
+form.error small{
+    color: #e74c3c;
+    visibility: visible;
 }
