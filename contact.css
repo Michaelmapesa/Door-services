@@ -47,3 +47,12 @@ h1 {
   padding: 50px;
   margin-top: 0px;
 }
+footer {
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 720px;
+  line-height: 25px;
+  word-spacing: 10px;
+}
