@@ -63,7 +63,8 @@ body{
 
 
 .form .input-group{
- position: relative;   
+ position: relative; 
+ margin-bottom: 8px;  
 }
 .form.input-group input{
     width: 100%;
