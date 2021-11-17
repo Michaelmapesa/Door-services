@@ -1,36 +1,49 @@
-head, h1{
-    text-align: center; 
-    word-spacing: 10px;
-    }
-    .underline{
-    border-bottom: 5px solid green;
-    display: inline-flex;
-    line-height: 1;
-    }
-    .send{
-    padding: 10px 30px;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #04AA6D;
-    margin-right: 10px;
-    margin-right: 100px;
-    }
-    .main_container{
-    display: flex;
-    flex-direction: column;
-    }
-    .input{
-    border: 1px solidwhite;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    }
-    .name{
-    background-color: lightgray;
-    }
-    .phone{
-    background-color: lightgray;
-    }
-    .message{
-    background-color: lightgray;
-    }
+head,
+h1 {
+  text-align: center;
+  word-spacing: 10px;
+}
+.underline {
+  border-bottom: 5px solid green;
+  display: inline-flex;
+  line-height: 1;
+}
+.send {
+  padding: 10px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #04aa6d;
+  margin-right: 10px;
+  margin-right: 100px;
+}
+.main_container {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  border: 1px solidwhite;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.name {
+  background-color: lightgray;
+}
+.phone {
+  background-color: lightgray;
+}
+.message {
+  background-color: lightgray;
+}
+.address {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.mapouter {
+  float: right;
+  padding: 50px;
+  margin-top: 0px;
+}
