@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+
+    
+    <title>Signup page</title>
+</head>
+<body>
+    <div class="regform"><h1>Registration form</h1></div>
+    <div class="mane">
+        <form>
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text" id="firstname"><br>
+                <label class="firstlable">First name</label>
+
+                <input class="lastname" type="text" id="lastname"><br>
+                <label class="lastlable">Last name</label>
+
+            </div>  
+            
+
+            
+                <h2 class="name">Location</h2>
+                <input class="location" type="text" id="location">
+        
+        
+           
+               <div>
+                <h2 class="name">Email</h2>
+                <input class="Email" type="text" id="email">
+               </div>
+            
+           
+               
+                <h2 class="name">Phone</h2>
+                <input class="code" type="text" id="areacode">
+                <label class="area-code">Area code</label>
+            
+
+                <input class="number" type="text" id="phone">
+                <label class="phone-number">Phone Number</label>
+            
+               
+           
+           
+
+            <h2 class="name">Subject</h2>
+            <select class="option" name="subject">
+                <option disabled="disabled" selected="selected">--choose option</option>
+                <option>Subject</option>
+                <option>subject</option>
+                <option>subject</option>
+            </select>
+
+            <h2 id=student>Are you beginer?</h2>
+            <label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="">
+                <span class="checkmark"></span>
+                yes
+            </label>
+            <label class="radio">
+                <input class="radio-two" type="radio" name="">
+                <span class="checkmark"></span>
+                No
+            </label>
+
+            <button type="submit" id="btn-submit">Register</button>
+
+        </form>
+
+    </div>
+
+    <div class="back">
+        <a href="index.html"><button>Back</button></a>
+    </div>
+    
+    <script src="home.js"></script>
+    <script src="validatesignup.js"></script>
+</body>
+
+
+</html>
