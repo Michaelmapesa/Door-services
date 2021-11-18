@@ -47,4 +47,6 @@ footer{
     margin-top: 450px;
     line-height: 10px;
     word-spacing: 10px;
+    background-color: rgba(164, 248, 125, 1);
+    height: 70px;
 }
