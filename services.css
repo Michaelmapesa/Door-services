@@ -1,0 +1,98 @@
+#logo img{
+    width: 4em;
+    height: 4em;
+}
+.nav_bar{
+    
+    width: 100%;
+    height: auto;
+    background-color: rgba(164, 248, 125, 1);
+    
+}
+.nav_bar li{
+    float: right;
+    display: inline;
+    padding: 40px;
+}
+li{
+    display: block;
+    font-family: roboto;
+    font-size: 18px;
+    font-style: none;
+    line-height: 21px;
+}
+body{
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+}
+h4{
+    margin-top: 2%;
+    margin-left: 230px;
+    margin-top: -20px;
+}
+h3{
+    margin-top: 3%;
+}
+.cleaning{
+    float: left;
+    margin-top: 1%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    
+ 
+}
+.service{
+    padding: 30px;
+    background :rgba(196, 196, 196, 1);
+    margin-top: 2%; 
+     
+}
+.laundry{
+    padding: 30px;
+    margin-top: 2%;
+    background :rgba(196, 196, 196, 1); 
+    border-width: 342px;
+    border-collapse: separate;
+    border-spacing: 10px; 
+    
+}
+.repairs{
+    padding: 30px ;
+    margin-top: 2%;
+    background :rgba(196, 196, 196, 1); 
+}
+.wrappers{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.plumbing{
+    padding: 30px;
+    margin-top: 2%;
+    background :rgba(196, 196, 196, 1);   
+}
+.painting{
+    padding: 30px;
+    margin-top: 2%;
+    background :rgba(196, 196, 196, 1);  
+}
+.Electrical{
+    padding: 30px;
+    margin-top: 2%;
+    background :rgba(196, 196, 196, 1);  
+}
+.foot{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 10px;
+    word-spacing: 10px;
+}
+.foot,p{
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+    background-size: cover;
+}
+img{
+    margin-top: 1%;
+    float: left;
+    padding-right: 30px;
+    margin-right: 50px;
+}
+p{
+    margin-right: 200px;
+    margin-top: 2%;
+}
