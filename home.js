@@ -1,25 +1,30 @@
-let person = [];
-const addperson = (ev)=>{
-    ev.preventDefault();
-    let person = {
-        id:Date.now(),
-     firstname:Document.getElementById('firstname').value,
-     lastname:Document.getElementById('lastname').value,
-     lacation:Document.getElementById('location').value,
-     email:Document.getElementById('email').value,
-     areacode:Document.getElementById('areacode').value,
-     phone:Document.getElementById('phone').value,
-    }
-    person.push(person);
-    document.forms[0].reset();//to clear form for next entry
 
-    console.warn('added', (person));
-    let pre = document.querySelector('#msg pre');
-    pre.textContent = '\n' +JSDN.stringfy(person, '\t' ,2); 
+     const btnSubmit = document.querySelector('#btn-submit')
 
-    localStorage.setItem('mypersonlist', JSDN.stringfy(person));
+     btnSubmit.addEventListener('click', (e)=>{
+e.preventDefault()
 
+let firstname = document.getElementById('firstname').value;
+let lastname = document.getElementById('lastname').value;
+let location = document.getElementById('location').value;
+let email = document.getElementById('email').value;
+let areacode = document.getElementById('areacode').value;
+let phone = document.getElementById('phone').value;
+console.log(firstname, lastname, location, email, areacode, phone );
+
+
+let person = {
+    firstname,
+    lastname,
+    location,
+    email,
+    areacode,
+    phone
 }
-     document.addEventListener('DOMContentLoader', ()=>{
-         document.getElementById(btn).addEventListener('click',addperson);
-     });
+
+localStorage.setItem('person', JSON.stringify(person))
+     })
+
+
+
+    
