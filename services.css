@@ -92,7 +92,13 @@ h3{
     font-style: italic;
     line-height: 10px;
     word-spacing: 10px;
+    position: relative;
+    top: 15px;
 }
 .foot,p{
     text-align: center;
+}
+footer{
+    background-color: rgba(164, 248, 125, 1);
+    height: 100px
 }

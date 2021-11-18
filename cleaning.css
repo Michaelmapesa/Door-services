@@ -2,13 +2,30 @@ body{
     background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
     background-size: cover;
 }
-img{
-    margin-top: 1%;
+.clean{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text h1{
+    font-size:60px;
+}
+
+.text p{
+    font-size: 30px;
+}
+.cleanservices{
+    float: right;
+}
+.image{
     float: left;
-    padding-right: 30px;
-    margin-right: 50px;
 }
-p{
-    margin-right: 200px;
-    margin-top: 2%;
-}
+/* img{
+    float: right; 
+} */
