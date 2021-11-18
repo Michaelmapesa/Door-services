@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+    background-size: cover;
+}
+.clean{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text h1{
+    font-size:60px;
+}
+
+.text p{
+    font-size: 30px;
+}
+.cleanservices{
+    float: right;
+}
+.image{
+    float: left;
+}
+/* img{
+    float: right; 
+} */
