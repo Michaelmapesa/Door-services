@@ -1,7 +1,7 @@
  //login data
- const submitbtn = document.querySelector('.submit-btn')
+ const submitbtn = document.querySelector('.form')
 
- submitbtn.addEventListener('click', (e)=>{
+ submitbtn.addEventListener('submit', (e)=>{
 e.preventDefault()
 
 let loginuser = document.getElementById('loginuser').value;
@@ -14,5 +14,11 @@ loginpassword
 
 }
 
+document.querySelector('#loginuser').value = "";
+document.querySelector('#loginpassword').value = "";
+
 localStorage.setItem('person1', JSON.stringify(person1))
  })
+
+
+ 

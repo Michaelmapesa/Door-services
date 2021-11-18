@@ -22,6 +22,13 @@ let person = {
     phone
 }
 
+document.querySelector('#firstname').value = "";
+document.querySelector('#lastname').value = "";
+document.querySelector('#location').value = "";
+document.querySelector('#email').value = "";
+document.querySelector('#areacode').value = "";
+document.querySelector('#phone').value = "";
+
 localStorage.setItem('person', JSON.stringify(person))
      })
 
