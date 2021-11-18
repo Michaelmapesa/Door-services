@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="contact-style.css">
     <title>CONTACT</title>
-  </head>
-  <body>
-    <div class="contact">
-      <h1><span class="underline">CONTACT</span></h1>
+
+</head>
+
+<body>
+    <div class="contact-banner">
+        <h1>Contact Us</h1>
+
+        <p class="contact-description">
+            We love to hear from you! Please fill in the form below and submit
+        </p>
     </div>
-    <section class="main_container">
-      <div class="input">
-        <label for=""></label><br />
-        <input class="name" type="text" placeholder="Name" />
-        <br />
-        <label for=""></label><br />
-        <input class="phone" type="text" placeholder="Phone" />
-        <br />
-        <label for=""></label><br />
-        <input class="message" type="text" placeholder="Email address" />
-        <button class="send">Send Message</button>
-      </div>
-    </section>
-    <div class="address">
-      <p>Nairobi, Nairobi County, Kenya.</p> <br>
-      <p><img src="https://img.icons8.com/ios-filled/30/000000/phone-disconnected.png"/> +254712345678<br>
-      <p><img src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png"/> doorservices@mail.com</p>
-   </div>
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="1000" height="620" id="gmap_canvas" src="https://maps.google.com/maps?q=Moringa%20school,%20Nairobi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:620px;width:1000px;}</style><a href="https://www.embedgooglemap.net">embed google map in wordpress</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:620px;width:1000px;}</style></div></div>
-   </div>
-   <footer>
+
+    <form name="contact-form">
+        <div class="form-control">
+            <label>Full Name</label>
+            <input name="name" placeholder="First and Last Name" />
+            <div class="error hide">Name is required</div>
+        </div>
+
+        <div class="form-control">
+            <label>Email</label>
+            <input name="email" placeholder="e.g. your_email@example.com" />
+            <div class="error hide">Email is invalid</div>
+        </div>
+
+        <div class="form-control">
+            <label>Phone</label>
+            <input name="phone"></input>
+            <div class="error hide">Phone is invalid</div>
+        </div>
+
+        <div class="form-control">
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            <div class="error hide">Message is required</div>
+        </div>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="900" height="620" id="gmap_canvas" src="https://maps.google.com/maps?q=Moringa%20school,%20Nairobi&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 620px;
+                        width: 1000px;
+                    }
+                </style><a href="https://www.embedgooglemap.net">embed google map in wordpress</a>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none!important;
+                        height: 620px;
+                        width: 1000px;
+                    }
+                </style>
+            </div>
+        </div>
+
+        <button type="submit">SUBMIT FORM</button>
+    </form>
+    <address class="address">
+      <p>Nairobi, Upperhill Ngong Road. &ensp; <img src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png"/> +2547123456789  &ensp; <img src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png"/> example@example.com</p>
+
+    </address>
+    <hr />
+    <footer>
         <h5 class="foot">Home <span>About us</span> <span>Services</span> <span>Contact</span></h5>
         <p>Copyright©2021 All rights reserved-Door services.</p>
     </footer>
-  </body>
+    <script src="contact.js"></script>
+</body>
+
 </html>
