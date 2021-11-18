@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(135deg, #ABDCFF 0%, #0396FF 100%);
+    background-size: cover;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.text h1{
+    font-size:60px;
+}
+
+.text p{
+    font-size: 30px;
+}
+
+.image{
+    float: left;
+}
