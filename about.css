@@ -39,3 +39,12 @@ h2{
     width: 40%;
     float: right;
 }
+footer{
+    font-size: 20px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 450px;
+    line-height: 10px;
+    word-spacing: 10px;
+}
