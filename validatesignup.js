@@ -28,7 +28,3 @@ lastname.addEventListener('keyup',function(){
     }
 })
 
-
-
-
-
