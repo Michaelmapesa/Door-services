@@ -35,9 +35,9 @@
 }
 .content2>img{
     position: relative;
-    height: 250px;
+    height: 450px;
     width: 520px;
-    right: -430px;
+    right: -630px;
     top: -120px;   
 }
 footer{
@@ -46,12 +46,16 @@ footer{
     background-color: rgba(164, 248, 125, 1);
     border: 2px solid rgba(164, 248, 125, 1);
     height: 50px;
+    position: relative;
+    top: 150px;
 
 }
 .foot{
     position: relative;
     top: -15px;
 }
+
+
 footer>p{
     position: relative;
     top: -28px;
